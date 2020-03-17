@@ -8,9 +8,10 @@
 </nav>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 .nav {
     position: relative;
+    display:flex;
     width: 100%;
     background-color: white;
 }

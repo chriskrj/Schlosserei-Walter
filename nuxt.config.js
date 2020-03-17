@@ -21,6 +21,11 @@ module.exports = {
   /*
   ** Build configuration
   */
+ router: {
+    linkActiveClass: 'is-active',
+    linkExactActiveClass: 'is-open',
+  },
+  
   build: {
     /*
     ** Run ESLint on save
