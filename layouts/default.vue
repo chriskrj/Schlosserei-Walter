@@ -11,17 +11,21 @@
 
     <HeroImage />
     <nuxt/>
+
+    <Footer />
   </div>
 </template>
 
 <script>
 import Navigation from '~/components/Navigation.vue'
 import HeroImage from '~/components/HeroImage.vue'
+import Footer from '~/components/Footer.vue'
 
 export default {
   components: {
     Navigation,
-    HeroImage
+    HeroImage,
+    Footer
   }
 }
 </script>
@@ -32,11 +36,12 @@ export default {
   --main-text-color: #353535;
 }
 html, body {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
+  font-family: "Roboto", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
   background: white;
   color: #353535;
   width: 100vw;
   height: 100vh;
+  font-size: 18px;
 }
 
 a, a:visited {
@@ -63,6 +68,7 @@ a, a:visited {
 
 .SectionHeader-logo {
   width: 50%;
+  padding: 16px;
 }
 
 .fadeOpacity-enter-active, .fadeOpacity-leave-active {

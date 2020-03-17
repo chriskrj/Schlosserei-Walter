@@ -25,7 +25,10 @@ module.exports = {
     linkActiveClass: 'is-active',
     linkExactActiveClass: 'is-open',
   },
-  
+  css: [
+    '~/css/normalize.css'
+   ],
+
   build: {
     /*
     ** Run ESLint on save
