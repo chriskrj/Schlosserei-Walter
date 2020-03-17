@@ -2,7 +2,9 @@
   <div>
     <header class="SectionHeader"> 
       <div class="SectionHeader-container">
-        <img class="logo-lg" src="~/assets/logo-blau.png" width="418" />
+        <div class="SectionHeader-logo">
+          <img class="logo-lg" src="~/assets/logo-blau.png" width="418" />
+        </div>
         <Navigation />
       </div>
     </header>
@@ -24,6 +26,11 @@ export default {
 }
 </script>
 <style>
+:root {
+  --main-headline-color: #003996;
+  --main-bg-color: #003996;
+  --main-text-color: #353535;
+}
 html, body {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
   background: white;
@@ -33,7 +40,7 @@ html, body {
 }
 
 a, a:visited {
-  color: #3edada;
+  color: var(--main-text-color);
   text-decoration: none;
 }
 
@@ -48,9 +55,14 @@ a, a:visited {
 .SectionHeader-container {
   position: relative;
   width: 100%;
+  height: auto;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: stretch;
+}
+
+.SectionHeader-logo {
+  width: 50%;
 }
 
 .fadeOpacity-enter-active, .fadeOpacity-leave-active {
