@@ -1,4 +1,4 @@
-# schlosserei
+# Nuxt.js Project
 
 > Nuxt.js project
 
