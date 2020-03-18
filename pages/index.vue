@@ -13,11 +13,6 @@ export default {
 </script>
 
 <style>
-.container {
-  padding: 60px;
-  width: 100vw;
-  height: 100vh;
-  background: white;
-}
+
 </style>
 

@@ -18,16 +18,16 @@ export default {
 </script>
 <style scoped>
 .SectionFooter-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--main-bg-color);
-    margin-top: 1vw;
-    padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-bg-color);
+  margin-top: 1vw;
+  padding: 2rem;
 }
 
 .copyright {
-    color: white;
+  color: white;
 }
 </style>
