@@ -5,6 +5,12 @@
   </div>
 </template>
 
+<script>
+export default {
+  transition: 'fadeOpacity'
+}
+</script>
+
 <style scoped>
   .container {
     background: white;

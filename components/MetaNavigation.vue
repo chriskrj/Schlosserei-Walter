@@ -17,6 +17,25 @@
 
 .MetaNavigation-link::before {
     content: "";
+    display: inline-block;
+    font-family: "iconfont";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    font-size: 1em;
+    color: white;
+    margin-right: 0.33em;
+    vertical-align: middle;
+    margin-bottom: 0;
+    white-space: nowrap;
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0;
 
 }
 </style>

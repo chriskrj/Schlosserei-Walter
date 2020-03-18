@@ -6,6 +6,12 @@
   </div>
 </template>
 
+<script>
+export default {
+  transition: 'fadeOpacity'
+}
+</script>
+
 <style>
 .container {
   padding: 60px;

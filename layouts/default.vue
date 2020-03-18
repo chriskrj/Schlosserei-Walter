@@ -3,7 +3,9 @@
     <header class="SectionHeader"> 
       <div class="SectionHeader-container">
         <div class="SectionHeader-logo">
-          <img class="logo-lg" src="~/assets/logo-blau.svg" />
+          <nuxt-link class="nav-link" exact to="/">          
+            <img class="logo-lg" src="~/assets/logo-blau.svg" />
+          </nuxt-link>
         </div>
         <Navigation />
       </div>
@@ -30,29 +32,7 @@ export default {
 }
 </script>
 <style>
-:root {
-  --main-headline-color: #003996;
-  --main-bg-color: #003996;
-  --main-text-color: #353535;
-}
-html, body {
-  font-family: "Roboto", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  background: white;
-  color: #353535;
-  width: 100vw;
-  height: 100vh;
-  font-size: 18px;
-}
 
-a, a:visited {
-  color: var(--main-text-color);
-  text-decoration: none;
-}
-
-*, *:before, *:after {
-  box-sizing: border-box;
-  margin: 0;
-}
 .SectionHeader {
   position: relative;
 }
