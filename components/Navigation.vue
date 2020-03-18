@@ -26,18 +26,22 @@
 .servicenav {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: auto;
     background-color: var(--main-bg-color);
     padding: 16px;
     display: flex;
     justify-content:flex-end;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
 }
 
 .servicenav-link {
     color: white;
     margin-right: 1rem;
+}
+
+.servicenav-link:hover {
+    text-decoration: underline;
 }
 
 .nav {
@@ -48,11 +52,20 @@
     padding: 16px;
     display: flex;
     justify-content:flex-end;
+    align-items: center;
 }
 
 .nav-link {
     color: var(--main-headline-color);
     margin-right: 1rem;
+    padding-bottom: 0.25em;
+}
+.nav-link:hover {
+    border-bottom: 1px solid currentColor;
+}
+
+.nav-link.is-open {
+    border-bottom: 1px solid currentColor;
 }
 
 </style>

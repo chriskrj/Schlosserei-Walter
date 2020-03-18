@@ -3,7 +3,7 @@
     <header class="SectionHeader"> 
       <div class="SectionHeader-container">
         <div class="SectionHeader-logo">
-          <img class="logo-lg" src="~/assets/logo-blau.png" width="418" />
+          <img class="logo-lg" src="~/assets/logo-blau.svg" />
         </div>
         <Navigation />
       </div>
@@ -69,6 +69,13 @@ a, a:visited {
 .SectionHeader-logo {
   width: 50%;
   padding: 16px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo-lg {
+  width: 100%;
 }
 
 .fadeOpacity-enter-active, .fadeOpacity-leave-active {

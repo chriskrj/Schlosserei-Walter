@@ -26,7 +26,8 @@ module.exports = {
     linkExactActiveClass: 'is-open',
   },
   css: [
-    '~/css/normalize.css'
+    '~/css/normalize.css',
+    '~/css/global.css'
    ],
 
   build: {
