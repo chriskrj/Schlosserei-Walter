@@ -19,6 +19,7 @@ module.exports = {
   */
   // loading: { color: '#003996' },
   loading: false,
+  mode: 'spa',
   /*
   ** Build configuration
   */
@@ -31,7 +32,6 @@ module.exports = {
     '~/css/global.css',
     '~/css/colors.css'
    ],
-
   build: {
     /*
     ** Run ESLint on save
