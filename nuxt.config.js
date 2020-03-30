@@ -33,9 +33,7 @@ module.exports = {
     linkExactActiveClass: 'is-open',
   },
   css: [
-    '~/css/normalize.css',
-    '~/css/global.css',
-    '~/css/colors.css'
+    '~/assets/Sass/screen.scss'
    ],
   build: {
     /*

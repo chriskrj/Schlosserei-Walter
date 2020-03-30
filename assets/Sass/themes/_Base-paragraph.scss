@@ -1,0 +1,26 @@
+.Base-p {
+  @include default-p;
+  color: $color-anthrazit;
+  margin-bottom: 1em;
+
+  .Base-theme--dark & {
+    color: $color-white;
+  }
+}
+
+.Base-p--small {
+  @include default-small;
+
+  .Base-theme--dark & {
+    color: $color-white;
+  }
+}
+
+.Base-p--large {
+  @include default-large;
+  color: $color-anthrazit;
+
+  .Base-theme--dark & {
+    color: $color-white;
+  }
+}

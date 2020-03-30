@@ -1,0 +1,24 @@
+.Base-figure {
+  display: table;
+  margin-bottom: $susy-gutter-width*2;
+}
+
+.Base-figure-image {
+  display: block;
+  width: 100%;
+  vertical-align: bottom;
+  margin-bottom: $susy-gutter-width;
+}
+
+.Base-figcaption {
+  @include default-small;
+
+  display: table-caption;
+  caption-side: bottom;
+  margin-bottom: $susy-gutter-width;
+  color: $color-anthrazit;
+
+  .Base-theme--dark & {
+    color: $color-white;
+  }
+}

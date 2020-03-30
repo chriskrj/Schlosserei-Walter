@@ -1,7 +1,7 @@
 <template>
 <div class="SectionFooter-container">
     <div class="SectionFooter-logo">
-        <img src="~/assets/logo-white.svg" alt="Logo" width="100" height="100c">
+        <img src="~/assets/Images/logo-white.svg" alt="Logo" width="100" height="100c">
     </div>
     <MetaNavigation />
      <p class="copyright">© 2020 Schlosserei Boike</p>

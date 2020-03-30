@@ -1,0 +1,74 @@
+.cke_editable,
+.cke_panel_list,
+.RTE {
+  h1 {
+    @extend .Base-h1;
+  }
+
+  h2 {
+    @extend .Base-h2;
+  }
+
+  h3 {
+    @extend .Base-h3;
+  }
+
+  h4 {
+    @extend .Base-h4;
+  }
+
+  h5 {
+    @extend .Base-h5;
+  }
+
+  h6 {
+    @extend .Base-h6;
+  }
+
+  p {
+    @extend .Base-p;
+  }
+
+  ul {
+    @extend .Base-ul;
+  }
+
+  ol {
+    @extend .Base-ol;
+  }
+
+  blockquote > p {
+    @include font-Default;
+    @include font-size(24px);
+    font-weight: $fontweight-Default-regular;
+    font-style: italic;
+    line-height: 1.25;
+    color: $color-black;
+  }
+
+  table {
+    @extend .Base-table;
+  }
+
+  // Modifier classes in RTE
+  .Base-p--small {
+    @extend .Base-p--small;
+  }
+
+  .Base-p--large {
+    @extend .Base-p--large;
+  }
+
+  //.Base-ul--highlights {
+  //  @extend .Base-ul--highlights;
+  //}
+
+  // https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/
+  & > * + * {
+    margin-top: 1.25em;
+  }
+
+  & > *:last-child {
+    margin-bottom: 0 !important;
+  }
+}

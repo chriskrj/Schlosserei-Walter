@@ -1,10 +1,10 @@
 <template>
   <div>
-    <header class="SectionHeader"> 
+    <header class="SectionHeader">
       <div class="SectionHeader-container">
         <div class="SectionHeader-logo">
-          <nuxt-link class="nav-link" exact to="/">          
-            <img class="logo-lg" src="~/assets/logo-blau.svg" />
+          <nuxt-link class="nav-link" exact to="/">
+            <img class="logo-lg" src="~/assets/Images/logo-blau.svg" />
           </nuxt-link>
         </div>
         <Navigation />

@@ -1,0 +1,48 @@
+.Hamburger {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  color: $color-bek-blau;
+  fill: currentColor;
+  width: 40px;
+  transition: color 0.2s ease;
+  cursor: pointer;
+  display: block;
+  position: relative;
+
+  &:hover,
+  &:focus {
+    color: $color-bek-blau;
+  }
+}
+
+.Hamburger-icon-hamburger {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1, 1);
+  transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
+
+  .is-open & {
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(1, 0.5);
+  }
+}
+
+.Hamburger-icon-close {
+  position: absolute;
+  top: 0;
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
+  transform: scale(0.5) rotate(-45deg);
+
+  .is-open & {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1)  rotate(0deg);
+  }
+}
