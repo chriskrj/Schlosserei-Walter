@@ -23,6 +23,11 @@ module.exports = {
   /*
   ** Build configuration
   */
+ performance: {
+  hints: false,
+  maxEntrypointSize: 512000,
+  maxAssetSize: 512000
+},
  router: {
     linkActiveClass: 'is-active',
     linkExactActiveClass: 'is-open',
