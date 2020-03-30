@@ -8,6 +8,8 @@
   <div class="nav">
     <nuxt-link class="nav-link" exact to="/">Startseite</nuxt-link>
     <nuxt-link class="nav-link" to="/ueber-uns">Über uns</nuxt-link>
+    <nuxt-link class="nav-link" to="/leistungen">Leistungen</nuxt-link>
+    <nuxt-link class="nav-link" to="/karriere">Karriere</nuxt-link>
     <nuxt-link class="nav-link" to="/contact">Kontakt</nuxt-link>
   </div>
 </nav>
