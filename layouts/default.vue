@@ -1,7 +1,7 @@
 <template>
   <div>
-    <header class="SectionHeader">
-      <div class="SectionHeader-container">
+    <header class="SectionHeader u-container">
+      <div class="SectionHeader-container u-limitWidth-12 u-align-center">
         <div class="SectionHeader-logo">
           <nuxt-link class="nav-link" exact to="/">
             <img class="logo-lg" src="~/assets/Images/logo-blau.svg" />
@@ -39,7 +39,6 @@ export default {
 
 .SectionHeader-container {
   position: relative;
-  width: 100%;
   height: auto;
   display: flex;
   justify-content: flex-start;
