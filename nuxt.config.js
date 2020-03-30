@@ -1,4 +1,5 @@
 module.exports = {
+  mode: 'universal',
   /*
   ** Headers of the page
   */
@@ -19,7 +20,6 @@ module.exports = {
   */
   // loading: { color: '#003996' },
   loading: false,
-  mode: 'spa',
   /*
   ** Build configuration
   */
