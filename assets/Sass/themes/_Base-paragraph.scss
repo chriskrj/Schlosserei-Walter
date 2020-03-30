@@ -1,6 +1,6 @@
 .Base-p {
   @include default-p;
-  color: $color-anthrazit;
+  color: var(--main-text-color);
   margin-bottom: 1em;
 
   .Base-theme--dark & {
@@ -18,7 +18,7 @@
 
 .Base-p--large {
   @include default-large;
-  color: $color-anthrazit;
+  color: var(--main-text-color);
 
   .Base-theme--dark & {
     color: $color-white;
