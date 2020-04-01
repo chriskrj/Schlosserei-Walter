@@ -1,6 +1,6 @@
 .Base-h1 {
   @include default-h1;
-  color: $color-bek-blau;
+  color: var(--main-headline-color);
   margin-bottom: 1em;
 
   .Base-theme--dark & {
@@ -10,7 +10,7 @@
 
 .Base-h2 {
   @include default-h2;
-  color: $color-bek-blau;
+  color: var(--main-headline-color);
   margin-bottom: 1em;
 
   .Base-theme--dark & {
@@ -20,7 +20,7 @@
 
 .Base-h3 {
   @include default-h3;
-  color: $color-bek-blau;
+  color: var(--main-headline-color);
   margin-bottom: 1em;
 
   .Base-theme--dark & {
@@ -30,7 +30,7 @@
 
 .Base-h4 {
   @include default-h4;
-  color: $color-bek-blau;
+  color: var(--main-headline-color);
   margin-bottom: 1em;
 
   .Base-theme--dark & {

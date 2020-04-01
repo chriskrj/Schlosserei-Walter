@@ -68,7 +68,7 @@ $outer-pad: 4; // added in container as vw and used to calculate respond-to-grid
 
 // z-index: z($z-main, mainmenu);
 
-$z-main: main, footer, menu, engagementflappanels, header, scrolltop, engagementflapmenu, engagementflapmenuopen, tooltip;
+$z-main: main, footer, menu, header, scrolltop, tooltip;
 $z-header: mainmenu, logo, skipnavigation;
 
 // font base for px/em translation
