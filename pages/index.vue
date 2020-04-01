@@ -15,6 +15,17 @@
           <Infobox/>
         </div>
       </div>
+      <div class="GridCol3Even-row u-row">
+        <div class="GridCol3Even-col u-col">
+          <TeaserButton headline="Headline 1" />
+        </div>
+        <div class="GridCol3Even-col u-col">
+          <TeaserButton headline="Headline 2" />
+        </div>
+        <div class="GridCol3Even-col u-col">
+          <TeaserButton headline="Headline 3" />
+        </div>
+      </div>
     </div>
 
   </div>
@@ -22,12 +33,14 @@
 
 <script>
 import Infobox from '~/components/Infobox.vue'
+import TeaserButton from '~/components/TeaserButton.vue'
 
 export default {
   transition: 'fadeOpacity',
 
   components: {
-    Infobox
+    Infobox,
+    TeaserButton
   }
 }
 </script>
