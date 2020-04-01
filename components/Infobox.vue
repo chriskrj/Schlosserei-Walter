@@ -16,8 +16,24 @@
 
 <style lang="scss" scoped>
   .Infobox-container {
+    position: relative;
     background-color: var(--main-bg-color);
     border-radius: 8px;
+    overflow: hidden;
+
+    &::after {
+      position: absolute;
+      bottom: -25%;
+      right: -10%;
+      width: 100%;
+      height: 100%;
+      content: "";
+      background-size: contain;
+      background-image: url('../assets/Images/logo-white.svg');
+      background-position: bottom right;
+      background-repeat: no-repeat;
+      opacity: 0.2;
+    }
   }
 
   .Infobox {
