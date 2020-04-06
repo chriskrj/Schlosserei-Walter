@@ -1,4 +1,5 @@
 # Nuxt.js Project
+[![Netlify Status](https://api.netlify.com/api/v1/badges/12936c44-4595-490f-9081-70f9a609db80/deploy-status)](https://app.netlify.com/sites/schlosserei-boike/deploys)
 
 > Nuxt.js project
 
