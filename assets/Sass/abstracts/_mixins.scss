@@ -145,7 +145,7 @@
 @mixin default-h3 {
   @include font-Default;
   @include font-size(30px);
-  font-weight: $fontweight-Default-regular;
+  font-weight: $fontweight-Default-bold;
   line-height: 1.15;
 }
 

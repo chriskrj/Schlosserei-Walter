@@ -1,7 +1,7 @@
 <template>
   <div class="u-container u-marginBottom--r2 u-marginTop--r2">
     <div class="u-limitWidth-12 u-align-center">
-      <div class="GridCol2MainAside-row u-row">
+      <div class="GridCol2MainAside-row u-row u-marginBottom--r3">
         <div class="GridCol2MainAside-col-main u-col">
           <h1 class="Base-h1">Herzlich Willkommen bei der Firma Walter Boike Schlosserei und Zerspanungstechnik</h1>
           <div class="MainContent">
