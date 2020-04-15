@@ -3,7 +3,7 @@
     <header class="SectionHeader u-container">
       <div class="SectionHeader-container u-limitWidth-12 u-align-center">
         <div class="SectionHeader-logo">
-          <nuxt-link class="nav-link" exact to="/">
+          <nuxt-link class="Logo" exact to="/">
             <img class="logo-lg" src="~/assets/Images/logo-blau.svg" />
           </nuxt-link>
         </div>
@@ -58,7 +58,7 @@ export default {
 }
 
 .fadeOpacity-enter-active, .fadeOpacity-leave-active {
-  transition: opacity .35s ease-out;
+  transition: opacity 0.35s ease-out;
 }
 
 .fadeOpacity-enter, .fadeOpacity-leave-active {

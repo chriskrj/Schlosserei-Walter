@@ -4,7 +4,7 @@
         <img src="~/assets/Images/logo-white.svg" alt="Logo" width="100" height="100c">
     </div>
     <MetaNavigation />
-     <p class="copyright">© 2020 Schlosserei Boike</p>
+     <p class="Base-p copyright">© 2020 Schlosserei Boike</p>
 </div>
 </template>
 <script>
@@ -29,5 +29,9 @@ export default {
 
 .copyright {
   color: white;
+}
+
+.SectionFooter-logo {
+  margin-bottom: 1rem;
 }
 </style>
