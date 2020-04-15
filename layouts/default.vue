@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class="SectionHeader u-container">
+    <header class="SectionHeader">
       <div class="SectionHeader-container u-limitWidth-12 u-align-center">
         <div class="SectionHeader-logo">
           <nuxt-link class="Logo" exact to="/">
@@ -31,38 +31,4 @@ export default {
   }
 }
 </script>
-<style>
-
-.SectionHeader {
-  position: relative;
-}
-
-.SectionHeader-container {
-  position: relative;
-  height: auto;
-  display: flex;
-  justify-content: flex-start;
-  align-items: stretch;
-}
-
-.SectionHeader-logo {
-  width: 50%;
-  padding: 16px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.logo-lg {
-  width: 100%;
-}
-
-.fadeOpacity-enter-active, .fadeOpacity-leave-active {
-  transition: opacity 0.35s ease-out;
-}
-
-.fadeOpacity-enter, .fadeOpacity-leave-active {
-  opacity: 0;
-}
-</style>
 
