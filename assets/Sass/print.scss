@@ -11,7 +11,6 @@
 @import "vendors/config";
 
 // Base
-@import "base/webfonts";
 @import "base/icons";
 @import "base/u-textAlign";
 @import "base/normalize";
@@ -20,8 +19,8 @@
 @import "base/u-visuallyHidden";
 //@import "base/u-flexGallery";
 @import "base/u-svg";
+
 // Themes
-@import "themes/RTE";
 @import "themes/Base";
 @import "themes/Base-audio";
 @import "themes/Base-button";
@@ -33,7 +32,7 @@
 @import "themes/Base-media";
 @import "themes/Base-paragraph";
 @import "themes/Base-table";
-@import "themes/FluidStyledContent";
+
 //Layout
 
 // components
