@@ -14,7 +14,12 @@
     "post-update": "yarn upgrade --latest"
   },
   "dependencies": {
-    "nuxt": "^2.12.2"
+    "nuxt": "^2.12.2",
+    "gulp": "^4.0.2",
+    "del": "^5.1.0",
+    "gulp-sketch": "^1.0.5",
+    "path": "^0.12.7",
+    "lodash": "^4.17.15"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
