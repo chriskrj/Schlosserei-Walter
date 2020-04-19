@@ -3,9 +3,9 @@
   <dt class="accordion-item-title">
     <h3 class="Base-h3 u-marginBottom--1">{{item.title}}</h3>
     <ul class="Base-ul">
-      <li>Ausbildungsbeginn: {{item.start}}</li>
-      <li>Ausbildungsdauer: {{item.time}}</li>
-      <li>Voraussetzungen: {{item.skills}}</li>
+      <li><strong>Ausbildungsbeginn:</strong> {{item.start}}</li>
+      <li><strong>Ausbildungsdauer:</strong> {{item.time}}</li>
+      <li><strong>Voraussetzungen:</strong> {{item.skills}}</li>
     </ul>
     <button @click="toggle" class="accordion-item-trigger">
       <p class="accordion-item-title-text">Mehr erfahren</p>
