@@ -18,6 +18,22 @@
           <Infobox/>
         </div>
       </div>
+      <div class="GridCol1Main-row u-row">
+        <div class="GridCol1Main-col u-col">
+          <header class="u-marginTop--2">
+            <h2 class="Base-h2">Ansprechpartner</h2>
+          </header>
+        </div>
+      </div>
+      <div class="GridCol3Even-row u-row">
+        <div class="Person-item GridCol3Even-col u-col">
+          <Ansprechpartner imagesrc="logo-blau.png" imagealt="Bild von Patrick Bendel" fullname="Patrick Bendel" position="Inhaber, Metallbauermeister, SFM" phone="0431 33 75 98" fax="0431 33 7373" email="info@schlosserei-boike.de" />
+        </div>
+        <div class="Person-item GridCol3Even-col u-col">
+          <Ansprechpartner imagesrc="logo-blau.png" imagealt="Bild von Melina Brendel" fullname="Melina Brendel" position="Büro/Buchhaltung" phone="0431 33 75 98" fax="0431 33 7373" email="info@schlosserei-boike.de" />
+        </div>
+
+      </div>
     </div>
 
   </div>
@@ -25,12 +41,14 @@
 
 <script>
 import Infobox from '~/components/Infobox.vue'
+import Ansprechpartner from '~/components/Ansprechpartner.vue'
 
 export default {
   transition: 'fadeOpacity',
 
   components: {
-    Infobox
+    Infobox,
+    Ansprechpartner
   }
 }
 </script>
