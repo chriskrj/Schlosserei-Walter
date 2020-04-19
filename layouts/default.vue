@@ -22,6 +22,7 @@
 import Navigation from '~/components/Navigation.vue'
 import HeroImage from '~/components/HeroImage.vue'
 import Footer from '~/components/Footer.vue'
+import store from "~/store/store.js";
 
 export default {
   components: {

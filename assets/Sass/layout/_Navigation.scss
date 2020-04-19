@@ -40,6 +40,14 @@
   }
 }
 
+.servicenav-linkFax {
+  display: none;
+
+  @include respond-to-grid(5) {
+    display: block;
+  }
+}
+
 .servicenav-link {
   margin-right: 1rem;
   height: 20px;
