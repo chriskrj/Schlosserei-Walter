@@ -3,12 +3,29 @@
     <div class="u-limitWidth-12 u-align-center">
       <div class="GridCol2MainAside-row u-row">
         <div class="GridCol2MainAside-col-main u-col">
-          <h1 class="Base-h1">Herzlich Willkommen bei der Firma Walter Boike Schlosserei und Zerspanungstechnik</h1>
+          <h1 class="Base-h1">Kontakt</h1>
           <div class="MainContent">
-              <p class="Base-p">
-                Die Firma Schlosserei Boike...
-              </p>
-              <p class="Base-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, eos optio! Vero, optio magni sapiente illo ea aut, dignissimos incidunt labore est ab sed quam, ipsa voluptatibus officia soluta voluptas.</p>
+            <h2 class="Base-h5">Walter Boike Schlosserei und Zerspannungstechnik<br/>Inhaber Patrick Brendel e. K.</h2>
+            <p class="Base-p">Uferstr. 56  |  24106 Kiel</p>
+            <p class="Base-p">
+              <a class="Base-iconLink" href="tel:+49431337598">0431 33 75 98</a>
+            </p>
+            <p class="Base-p">
+              <a class="Base-iconLink-fax" href="tel:+49431337373">0431 33 7373</a>
+            </p>
+            <p class="Base-p">
+              <a class="Base-iconLink" href="mailto:info@schlosserei-boike.de">info@schlosserei-boike.de</a>
+            </p>
+            <div class="u-marginBottom--r2 u-marginTop--r2">
+
+              <figure class="Base-figure">
+                <img src="@/assets/Images/address.jpg" alt="Google Maps Adresse" />
+                <figcaption class="Base-figcaption">
+                  Routenbeschreibung zu unserem Standort. <a class="Base-iconLink" ref="external" target="_blank" href="https://www.google.com/maps/dir/Current+Location/54.367375,10.123383">Zur Routenbeschreibung</a>
+                </figcaption>
+              </figure>
+
+            </div>
           </div>
         </div>
         <div class="GridCol2MainAside-col-aside u-col">

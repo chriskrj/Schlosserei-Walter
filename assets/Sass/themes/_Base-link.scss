@@ -1,7 +1,7 @@
 .Base-link {
   border: none;
   cursor: pointer;
-  color: $color-bek-lila;
+  color: var(--main-link-color);
   font-weight: inherit;
   display: inline;
   background-color: transparent;
@@ -46,7 +46,7 @@
 .Base-iconLink-page {
   @include default-p;
   position: relative;
-  color: $color-bek-lila;
+  color: var(--main-link-color);
   cursor: pointer;
   border: none;
   background-color: transparent;
@@ -57,7 +57,7 @@
   &::before {
     @include icon;
     font-size: 1em;
-    color: $color-bek-lila;
+    color: var(--main-link-color);
     margin-right: 0.33em;
     vertical-align: middle;
     margin-bottom: 0;

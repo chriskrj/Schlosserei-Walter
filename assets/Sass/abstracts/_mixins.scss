@@ -159,7 +159,7 @@
 @mixin default-h5 {
   @include font-Default;
   @include font-size(18px);
-  font-weight: $fontweight-Default-regular;
+  font-weight: $fontweight-Default-bold;
   //line-height: 1.15;
 }
 

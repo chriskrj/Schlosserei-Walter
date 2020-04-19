@@ -1,0 +1,27 @@
+.TeaserButton-container {
+  position: relative;
+  background-color: var(--main-light-bg-color);
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+}
+
+.TeaserButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @include padding(calc(#{$susy-gutter-width} + 2vw));
+}
+
+.TeaserButton-iconContainer {
+  @include margin-bottom($susy-gutter-width*2);
+}
+
+.TeaserButton-headline {
+  text-align: center;
+}
+
+.TeaserButton-icon {
+  fill: var(--main-bg-color);
+}

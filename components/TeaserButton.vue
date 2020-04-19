@@ -7,22 +7,6 @@
 </template>
 <script>
 export default {
-  props: ['headline']
+  props: ['headline', 'icon']
 }
 </script>
-<style lang="scss" scoped>
-  .TeaserButton-container {
-    position: relative;
-    background-color: gray;
-    border-radius: 8px;
-    width: 100%;
-    height: auto;
-  }
-
-  .TeaserButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: calc(16px + 2vw);
-  }
-</style>
