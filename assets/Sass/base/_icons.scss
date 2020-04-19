@@ -1,7 +1,7 @@
 @font-face {
   font-family: "iconfont";
-  src: url('../Fonts/iconfont.woff2?1579255790') format('woff2'),
-    url('../Fonts/iconfont.woff?1579255790') format('woff');
+  src: url('../Fonts/iconfont.woff2') format('woff2'),
+    url('../Fonts/iconfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -41,8 +41,8 @@
 .u-icon-link-mail::before { content: "\EA07"; }
 .u-icon-link-map::before { content: "\EA08"; }
 .u-icon-link-mobile::before { content: "\EA09"; }
-.u-icon-link-section::before { content: "\EA0A"; }
-.u-icon-link-phone::before { content: "\EA0B"; }
+.u-icon-link-phone::before { content: "\EA0A"; }
+.u-icon-link-section::before { content: "\EA0B"; }
 
 
 @mixin icon-link-back { content: "\EA01"; }
@@ -54,5 +54,5 @@
 @mixin icon-link-mail { content: "\EA07"; }
 @mixin icon-link-map { content: "\EA08"; }
 @mixin icon-link-mobile { content: "\EA09"; }
-@mixin icon-link-section { content: "\EA0A"; }
-@mixin icon-link-phone { content: "\EA0B"; }
+@mixin icon-link-phone { content: "\EA0A"; }
+@mixin icon-link-section { content: "\EA0B"; }

@@ -30,7 +30,6 @@ const
 
 const paths = {
   src: {
-    root: 'Resources/Private/',
     css: 'Sass/**/*.scss',
     images: 'Images/**/*',
     webfonts: 'Webfonts/**/*',
@@ -74,7 +73,7 @@ gulp.task('build:iconfont', function () {
    */
   let runTimestamp = Math.round(Date.now() / 1000);
 
-  return gulp.src(path.resolve(paths.src.root+paths.src.iconfont.sketchFile))
+  return gulp.src('Iconfont/iconfont-18px.sketch')
       .pipe(sketch({
         export: 'artboards',
         formats: 'svg'
@@ -92,19 +91,21 @@ gulp.task('build:iconfont', function () {
           'className':className,
           'fontName':fontName,
           'timestamp': runTimestamp,
-          fontPath: 'assets/Fonts/',
+          fontPath: '../Fonts/',
           glyphs: glyphs.map(mapGlyphs)
         };
-        gulp.src(path.resolve('Iconfont/Templates.css.txt'))
+        gulp.src('Iconfont/Templates/fontawesome-style.css.txt')
             .pipe(consolidate('lodash', options))
             .pipe(rename({basename: '_icons', extname:'.scss'}))
-            .pipe(gulp.dest('assets/Sass'));
-        gulp.src(path.resolve('Iconfont/Templates/fontawesome-style.mustache'))
+            .pipe(gulp.dest('assets/Sass/base'));
+        gulp.src('Iconfont/Templates/fontawesome-style.mustache')
             .pipe(consolidate('lodash', options))
-            .pipe(rename({basename: 'Iconfont', extname:'.html'}))
+            //.pipe(rename({basename: 'Iconfont', extname:'.html'}))
+            //.pipe(gulp.dest(path.resolve(paths.src.root+paths.src.iconfont.partial)))
       })
-      .pipe(gulp.dest('assets/Fonts')))
+      .pipe(gulp.dest('assets/Fonts'))
 });
+
 
 
 /**
@@ -123,7 +124,6 @@ gulp.task('build:webfonts', function () {
 });
 
 gulp.task('build', gulp.series([
-  'clean:all',
   'build:iconfont',
   'build:webfonts'
 ]));
