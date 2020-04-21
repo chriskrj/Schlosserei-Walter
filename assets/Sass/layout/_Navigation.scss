@@ -24,7 +24,7 @@
   padding: 16px;
   display: flex;
   justify-content: space-around;
-  align-items: stretch;
+  align-items: center;
   border-bottom-left-radius: unset;
   border-bottom-right-radius: unset;
 
@@ -124,4 +124,26 @@
   height: auto;
   overflow: visible !important;
   fill: var(--main-link-color);
+}
+
+.MobileNav {
+  background: transparent;
+}
+
+.MobileNav-link {
+  display: block;
+  @include font-Default;
+  @include font-size(24px);
+  color: var(--mobile-nav-color);
+  margin-right: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 2px solid rgba($color-gainsboro, 0.5);
+
+  &:hover {
+    border-bottom: 1px solid currentColor;
+  }
+
+  &.is-open {
+    border-bottom: 1px solid currentColor;
+  }
 }

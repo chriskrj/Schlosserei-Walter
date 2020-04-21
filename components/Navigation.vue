@@ -10,12 +10,7 @@
     <a class="servicenav-link Base-iconLink" href="mailto:info@schlosserei-boike.de">
       <span class="servicenav-linkContent">info@schlosserei-boike.de</span>
     </a>
-
-    <button class="Hamburger Hamburger--spin MobileNav-toogle" id="MobileNav-toggle" data-toggle="primarynavigation" aria-expanded="false">
-      <span class="Hamburger-label u-visuallyHidden">Menü</span>
-      <span class="Hamburger-box"><span class="Hamburger-inner"></span></span>
-    </button>
-
+    <Burger/>
 </div>
   <div id="primarynavigation" class="nav">
     <nuxt-link class="nav-link" exact to="/">
@@ -30,3 +25,11 @@
   </div>
 </nav>
 </template>
+<script>
+import Burger from "~/components/Menu/Burger.vue";
+export default {
+  components: {
+    Burger
+  }
+};
+</script>
