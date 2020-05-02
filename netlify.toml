@@ -1,6 +1,6 @@
 [[headers]]
   for = "/*"
-  Basic-Auth: admin:Schlosserei2020
+  Basic-Auth = admin:Schlosserei2020
   [headers.values]
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
