@@ -7,7 +7,7 @@
           <div class="MainContent">
             <ul class="Base-ul u-marginTop--r2 u-marginBottom--r2">
               <li>CNC Dreh- und Frästeile</li>
-              <li>Schweißfachbetrieb nach ISO-3834, <br/>Zertifiziert nach DIN EN 1090 EXC 2  (bis S355 und CrNi-Stähle)</li>
+              <li>Schweißfachbetrieb nach ISO-3834, Zertifiziert nach DIN EN 1090 EXC 2 (bis S355 und CrNi-Stähle)</li>
               <li>Zertifizierter Fachbetrieb nach WHG</li>
               <li>Neuanfertigungen</li>
               <li>Reparaturen Instandhaltungen </li>
@@ -35,7 +35,6 @@
         </div>
       </div>
     </div>
-
   </div>
 </template>
 

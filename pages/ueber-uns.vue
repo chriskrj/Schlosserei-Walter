@@ -5,17 +5,20 @@
         <div class="GridCol2MainAside-col-main u-col">
           <h1 class="Base-h1">Über uns</h1>
           <div class="MainContent">
-            <p class="Base-p">Wir haben eine Fertigungsfläche von 600 m², Halle bekrant bis 3,2 Tonnen, 1 Teleskop-stapler bis 3,8 Tonnen mit 13,5 m Auslage, Bürofläche mit einem Konstruktionsbüro auf einer Fläche von 450 m², mit einem Mitarbeiterstamm von zur Zeit 18 Personen.</p>
+            <p class="Base-p">Wir haben eine Fertigungsfläche von 600 m², Halle bekrant bis 3,2 Tonnen, 1
+              Teleskop-stapler bis 3,8 Tonnen mit 13,5 m Auslage, Bürofläche mit einem Konstruktionsbüro auf einer
+              Fläche von 450 m2, mit einem Mitarbeiterstamm von zur Zeit 18 Personen.</p>
             <p class="Base-p"><strong>Die Firma fußt auf drei Elementen:</strong></p>
             <ul class="Base-ul">
               <li>Herstellen von Produkten aus Stahl und Edelstahl</li>
               <li>Dreh- und Fräsarbeiten unterschiedlichster Art</li>
               <li>Konstruktionsbüro</li>
             </ul>
-            <p class="Base-p">Auf einer Fläche von 600 m² beschäftigen wir qualifizierte Dreher, Fräser und Schlosser/ Metallbauer.</p>
-            <p class="Base-p">  Für die Bearbeitung von Einzel- und Serienteilen sowie Sonder- oder Prototypen - auf hohem technischen Niveau - sind ausreichend Kapazitäten vorhanden.</p>
-            <p class="Base-p">  Unsere erfahrenen Mitarbeiter ermöglichen eine termingerechte Fertigung. Mit unserer modernen Technik, wird garantiert, dass Ihr Auftrag mit Gewissen durchgeführt wird und das Ergebnis immer von bester Qualität ist.</p>
-            <p class="Base-p">  Wenn Sie Fragen zu unseren Produkten und Leistungen haben oder einfach nur weitere Informationen wünschen und uns kontaktieren möchten, rufen Sie uns an oder schicken uns eine Nachricht.</p>
+            <p class="Base-p">Auf einer Fläche von 600 m2 beschäftigen wir qualifizierte Dreher, Fräser und Schlosser/ Metallbauer.</p>
+            <p class="Base-p"> Für die Bearbeitung von Einzel- und Serienteilen sowie Sonder- oder Prototypen - auf hohem technischen Niveau - sind ausreichend Kapazitäten vorhanden.</p>
+            <p class="Base-p"> Unsere erfahrenen Mitarbeiter ermöglichen eine termingerechte Fertigung. Mit unserer
+              modernen Technik, wird garantiert, dass Ihr Auftrag mit Gewissen durchgeführt wird und das Ergebnis immer von bester Qualität ist.</p>
+            <p class="Base-p"> Wenn Sie Fragen zu unseren Produkten und Leistungen haben oder einfach nur weitere Informationen wünschen und uns kontaktieren möchten, rufen Sie uns an oder schicken uns eine Nachricht.</p>
           </div>
         </div>
         <div class="GridCol2MainAside-col-aside u-col">
