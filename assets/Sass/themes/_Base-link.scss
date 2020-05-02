@@ -191,18 +191,6 @@
   }
 }
 
-.Base-iconLink-intranet {
-  &::before {
-    @include icon-link-intranet;
-  }
-}
-
-.Base-teaserIconLink-intranet {
-  &::after {
-    @include icon-link-intranet;
-  }
-}
-
 .Base-iconLink-section,
 .Base-iconLink[href^="#"] {
   &::before {
@@ -214,18 +202,6 @@
 .Base-teaserIconLink[href^="#"] {
   &::after {
     @include icon-link-section;
-  }
-}
-
-.Base-iconLink-map {
-  &::before {
-    @include icon-link-map;
-  }
-}
-
-.Base-teaserIconLink-map {
-  &::after {
-    @include icon-link-map;
   }
 }
 

@@ -2,6 +2,14 @@
   visibility: hidden;
 }
 
+#burger {
+  display: block;
+
+  @include respond-to-grid(5) {
+    display: none;
+  }
+}
+
 .burger-button {
   position: relative;
   height: 30px;
