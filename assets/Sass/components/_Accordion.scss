@@ -22,6 +22,7 @@ $browser-context: 16;
 
 .accordion-item {
   position: relative;
+  cursor: pointer;
   @include margin-bottom($susy-gutter-width);
 }
 
