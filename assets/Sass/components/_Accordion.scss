@@ -56,7 +56,7 @@ $browser-context: 16;
   display: block;
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   bottom: 0;
   margin: auto;
   width: $size;
@@ -73,7 +73,7 @@ $browser-context: 16;
 
 .accordion-item-details {
   overflow: hidden;
-  background-color: var(--main-light-bg-color);
+  background-color: white;
   @include padding($susy-gutter-width);
 }
 

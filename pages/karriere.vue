@@ -41,24 +41,78 @@ export default {
       {
         id: 1,
         active: false,
-        title: 'Metallbauer Fachrichtung Konstruktionstechnik',
-        start:'01.08.2020',
-        time: '3,5 Jahre',
-        skills: 'mindestens guter Hauptschulabschluss, handwerkliches Geschick',
-        details: `
-          <p class="Base-p">Come on, this is a Bluth family celebration. It's no place for children.</p>
-        `
+        title: 'Metallbauer Fachrichtung Konstruktionstechnik (m/w/d)',
+        details: `<ul class="Base-ul">
+        <li><strong>Ausbildungsbeginn:</strong> 01.08.2020</li>
+        <li><strong>Ausbildungsdauer:</strong> 3,5 Jahre</li>
+        <li><strong>Voraussetzungen:</strong> mindestens guter Hauptschulabschluss, handwerkliches Geschick</li>
+      </ul>`
       },
       {
         id: 2,
         active: false,
-        title: 'Zerspanungsmechaniker Fachrichtung Dreh- und Frästechnik',
+        title: 'Zerspanungsmechaniker Fachrichtung Dreh- und Frästechnik (m/w/d)',
+        start:'01.08.2020',
+        time: '3,5 Jahre',
+        skills: 'sehr guter Hauptschulabschluss oder guter Realschulabschluss, gute Mathematikkenntnisse',
+        details: `<ul class="Base-ul u-marginBottom--r1">
+        <li><strong>Ausbildungsbeginn:</strong> 01.08.2020</li>
+        <li><strong>Ausbildungsdauer:</strong> 3,5 Jahre</li>
+        <li><strong>Voraussetzungen:</strong> mindestens guter Hauptschulabschluss, handwerkliches Geschick</li>
+      </ul>`
+      },
+      {
+        id: 3,
+        active: false,
+        title: 'Metallbauer / Schlosser (m/w/d)',
         start:'01.08.2020',
         time: '3,5 Jahre',
         skills: 'sehr guter Hauptschulabschluss oder guter Realschulabschluss, gute Mathematikkenntnisse',
         details: `
-          <p class="Base-p">Come on, this is a Bluth family celebration. It's no place for children.</p>
+      <h4 class="Base-h4">Voraussetzung:</h4>
+      <ul class="Base-ul u-marginBottom--r1">
+      <li>abgeschlossene Berufsausbildung als Schlosser/Metallbauer oder vergleichbar</li>
+      <li>Schweißkenntnisse wünschenswert in WIG, MAG, E-Hand</li>
+      <li>Teamfähigkeit</li>
+      <li>Zuverlässigkeit</li>
+      </ul>
+      <h4 class="Base-h4">Wir bieten:</h4>
+      <ul class="Base-ul u-marginBottom--r1">
+        <li>Einschichtbetrieb</li>
+        <li>unbefristete Anstellung</li>
+        <li>30 Tage Urlaub im Jahr</li>
+        <li>Urlaubs- und Weihnachtsgeld</li>
+        <li>VWL / AVWL</li>
+      </ul>
         `
+      },
+      {
+        id: 4,
+        active: false,
+        title: 'Zerspanungsmechaniker (m/w/d)',
+        details: `<h4 class="Base-h4">Voraussetzung:</h4>
+      <ul class="Base-ul u-marginBottom--r1">
+      <li>abgeschlossene Berufsausbildung als Schlosser/Metallbauer oder vergleichbar</li>
+      <li>Schweißkenntnisse wünschenswert in WIG, MAG, E-Hand</li>
+      <li>Teamfähigkeit</li>
+      <li>Zuverlässigkeit</li>
+    </ul>
+    <h4 class="Base-h4">Unsere Steuerungen:</h4>
+    <ul class="Base-ul u-marginBottom--r1">
+      <li>Siemens 828D</li>
+      <li>Fanuc (Drehtechnik)</li>
+      <li>Fagor</li>
+      <li>DIN-Steuerung</li>
+    </ul>
+    <p class="Base-p">Anfertigen von Einzelteilen und Kleinserien</p>
+    <h4 class="Base-h4">Wir bieten:</h4>
+    <ul class="Base-ul u-marginBottom--r1">
+      <li>Einschichtbetrieb</li>
+      <li>unbefristete Anstellung</li>
+      <li>30 Tage Urlaub im Jahr</li>
+      <li>Urlaubs- und Weihnachtsgeld</li>
+    </ul>
+      `
       }
       ]
     }
