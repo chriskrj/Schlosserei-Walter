@@ -2,7 +2,7 @@
 <div :id="groupId + '-' + item.id" class="accordion-item" :class="{'is-active': item.active}">
   <dt class="accordion-item-title">
     <button @click="toggle" class="accordion-item-trigger">
-      <h3 class="Base-h3 u-marginBottom--0">{{item.title}}</h3>
+      <h3 class="accordion-item-title-text">{{item.title}}</h3>
       <span class="accordion-item-trigger-icon"></span>
     </button>
   </dt>

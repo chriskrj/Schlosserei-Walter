@@ -4,12 +4,11 @@ $browser-context: 16;
   @return #{$pixels/$context}em;
 }
 
-.accordion {
-  padding: 0;
+.Accordion {
   @include margin-bottom($susy-gutter-width*2);
 
-  div:not(:last-child) {
-    border-bottom: 1px solid rgba(10, 10, 10, 0.1);
+  & .accordion-item:nth-child(even) {
+    background-color: var(--main-light-bg-color);
   }
 
   div:last-child .accordion-item-details {
@@ -23,7 +22,7 @@ $browser-context: 16;
 
 .accordion-item {
   position: relative;
-  @include margin-bottom($susy-gutter-width*2);
+  @include margin-bottom($susy-gutter-width);
 }
 
 .accordion-item-trigger,
@@ -56,7 +55,7 @@ $browser-context: 16;
   display: block;
   position: absolute;
   top: 0;
-  right: 0;
+  right: $susy-gutter-width;
   bottom: 0;
   margin: auto;
   width: $size;
