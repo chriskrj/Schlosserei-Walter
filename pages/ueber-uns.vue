@@ -34,10 +34,10 @@
       </div>
       <div class="GridCol3Even-row u-row">
         <div class="Person-item GridCol3Even-col u-col">
-          <Ansprechpartner imagesrc="logo-blau.png" imagealt="Bild von Patrick Bendel" fullname="Patrick Bendel" position="Inhaber, Metallbauermeister, SFM" phone="0431 33 75 98" fax="0431 33 7373" email="info@schlosserei-boike.de" />
+          <Ansprechpartner imagesrc="ansprechpartner--fallback.svg" imagealt="Bild von Patrick Bendel" fullname="Patrick Bendel" position="Inhaber, Metallbauermeister, SFM" phone="0431 33 75 98" fax="0431 33 7373" email="info@schlosserei-boike.de" />
         </div>
         <div class="Person-item GridCol3Even-col u-col">
-          <Ansprechpartner imagesrc="logo-blau.png" imagealt="Bild von Melina Brendel" fullname="Melina Brendel" position="Büro/Buchhaltung" phone="0431 33 75 98" fax="0431 33 7373" email="info@schlosserei-boike.de" />
+          <Ansprechpartner imagesrc="ansprechpartner--fallback.svg" imagealt="Bild von Melina Brendel" fullname="Melina Brendel" position="Büro/Buchhaltung" phone="0431 33 75 98" fax="0431 33 7373" email="info@schlosserei-boike.de" />
         </div>
 
       </div>
