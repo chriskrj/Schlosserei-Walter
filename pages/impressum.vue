@@ -3,7 +3,7 @@
     <div class="u-limitWidth-12 u-align-center">
       <div class="GridCol2MainAside-row u-row">
         <div class="GridCol2MainAside-col-main u-col">
-          <h1 class="Base-h1">Kontakt</h1>
+          <h1 class="Base-h1">Impressum & Datenschutz</h1>
           <div class="MainContent">
             <h2 class="Base-h5">Walter Boike Schlosserei und Zerspannungstechnik<br/>Inhaber Patrick Brendel e. K.</h2>
             <p class="Base-p">Uferstr. 56  |  24106 Kiel</p>
@@ -16,16 +16,7 @@
             <p class="Base-p">
               <a class="Base-iconLink" href="mailto:info@schlosserei-boike.de">info@schlosserei-boike.de</a>
             </p>
-            <div class="u-marginBottom--r2 u-marginTop--r2">
 
-              <figure class="Base-figure">
-                <img src="@/assets/Images/address.jpg" alt="Google Maps Adresse" />
-                <figcaption class="Base-figcaption">
-                  Routenbeschreibung zu unserem Standort. <a class="Base-iconLink" ref="external" target="_blank" href="https://goo.gl/maps/hywELEdpFtF8v5cG9">Zur Routenbeschreibung</a>
-                </figcaption>
-              </figure>
-
-            </div>
           </div>
         </div>
         <div class="GridCol2MainAside-col-aside u-col">

@@ -5,9 +5,9 @@
         <div class="GridCol2MainAside-col-main u-col">
           <h1 class="Base-h1">Wir suchen Verstärkung für unser Team</h1>
           <div class="MainContent u-marginBottom--r2">
-            <h2 class="Base-h3">Ausbildung</h2>
+            <h2 class="Base-h3 u-marginBottom--r2">Ausbildung</h2>
             <Accordion class="u-marginBottom--r2" id="jobs1" :content="jobContent" multiple />
-            <h2 class="Base-h3">Freie Stellen</h2>
+            <h2 class="Base-h3 u-marginBottom--r2">Freie Stellen</h2>
             <Accordion class="u-marginBottom--r2" id="jobs2" :content="jobContent2" multiple />
           </div>
         </div>

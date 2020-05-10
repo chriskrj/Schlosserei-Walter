@@ -23,6 +23,9 @@
 }
 
 .TeaserButton-iconContainer {
+  display: block;
+  width: 60px;
+  height: auto;
   @include margin-bottom($susy-gutter-width*2);
 }
 

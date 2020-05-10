@@ -4,7 +4,7 @@
         <img src="~/assets/Images/logo-white.svg" alt="Logo" width="100" height="100c">
     </div>
     <MetaNavigation />
-     <p class="Base-p copyright">© 2020 Schlosserei Boike</p>
+     <p class="Base-p copyright u-marginTop--1">© 2020 Schlosserei Boike</p>
 </div>
 </template>
 <script>

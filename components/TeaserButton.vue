@@ -1,7 +1,7 @@
 <template>
   <div class="TeaserButton-container">
     <div class="TeaserButton">
-      <h3 class="Base-h3">{{headline}}</h3>
+      <h3 class="Base-h3 u-marginBottom--0">{{headline}}</h3>
     </div>
   </div>
 </template>

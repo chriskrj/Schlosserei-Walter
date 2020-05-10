@@ -8,7 +8,7 @@
   order: 1;
 
   @include respond-to-grid(5) {
-    width: 80%;
+    width: 70%;
     display: flex;
     order: 2;
   }
@@ -29,8 +29,8 @@
   border-bottom-right-radius: unset;
 
   @include respond-to-grid(5) {
-    border-bottom-left-radius: 2vw;
-    border-bottom-right-radius: 2vw;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
   }
 
   @include respond-to-grid(7) {
@@ -49,7 +49,7 @@
 }
 
 .servicenav-link {
-  margin-right: 1rem;
+  margin-right: 2rem;
   height: 20px;
   line-height: 1.25;
 
@@ -106,8 +106,12 @@
 .nav-link {
   @include font-Default;
   color: var(--main-headline-color);
-  margin-right: 1rem;
+  margin-right: 1.5rem;
   padding-bottom: 0.25em;
+
+  @include respond-to-grid(9) {
+    margin-right: 2rem;
+  }
 
   &:hover {
     border-bottom: 1px solid currentColor;
