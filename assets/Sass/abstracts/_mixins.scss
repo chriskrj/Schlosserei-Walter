@@ -131,7 +131,7 @@
 @mixin default-h1 {
   @include font-Default;
   @include font-size(48px);
-  font-weight: $fontweight-Default-bold;
+  font-weight: $fontweight-Default-black;
   line-height: 1;
 }
 
@@ -145,7 +145,7 @@
 @mixin default-h3 {
   @include font-Default;
   @include font-size(30px);
-  font-weight: $fontweight-Default-bold;
+  font-weight: $fontweight-Default-black;
   line-height: 1.15;
 }
 
@@ -159,14 +159,14 @@
 @mixin default-h5 {
   @include font-Default;
   @include font-size(18px);
-  font-weight: $fontweight-Default-bold;
+  font-weight: $fontweight-Default-black;
   //line-height: 1.15;
 }
 
 @mixin default-h6 {
   @include font-Default;
   @include font-size(16px);
-  font-weight: $fontweight-Default-bold;
+  font-weight: $fontweight-Default-black;
   //line-height: 1.15;
 }
 
