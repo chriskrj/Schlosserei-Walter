@@ -138,7 +138,7 @@
 @mixin default-h2 {
   @include font-Default;
   @include font-size(42px);
-  font-weight: $fontweight-Default-regular;
+  font-weight: $fontweight-Default-black;
   line-height: 1.15;
 }
 

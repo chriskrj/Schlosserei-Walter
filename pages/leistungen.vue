@@ -14,7 +14,7 @@
               <li>Konstruktionszeichnung, Werkplanung, Entwürfe</li>
             </ul>
 
-            <h4 class="Base-h4">Unser Maschinenpark umfasst:</h4>
+            <h4 class="Base-h3">Unser Maschinenpark umfasst:</h4>
             <ul class="Base-ul u-marginTop--r2 u-marginBottom--r2">
               <li>3 Achs Fräszentrum (4 Stück)</li>
               <li>4 Achs Fräszentrum</li>
