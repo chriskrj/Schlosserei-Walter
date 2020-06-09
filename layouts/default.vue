@@ -4,7 +4,7 @@
       <div class="SectionHeader-container u-limitWidth-12 u-align-center">
         <div class="SectionHeader-logo">
           <nuxt-link class="Logo" exact to="/">
-            <img class="logo-lg" src="~/assets/Images/logo-blau.svg" />
+            <img class="logo-lg" src="~/assets/Images/logo-blau.svg" alt="Logo Schlosserei Boike"/>
           </nuxt-link>
         </div>
         <Navigation />
