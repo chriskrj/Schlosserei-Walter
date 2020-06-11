@@ -43,7 +43,7 @@ export default {
         active: false,
         title: 'Metallbauer Fachrichtung Konstruktionstechnik (m/w/d)',
         details: `<ul class="Base-ul">
-        <li><strong>Ausbildungsbeginn:</strong> 01.08.2020</li>
+        <li><strong>Ausbildungsbeginn:</strong> 01.08</li>
         <li><strong>Ausbildungsdauer:</strong> 3,5 Jahre</li>
         <li><strong>Voraussetzungen:</strong> mindestens guter Hauptschulabschluss, handwerkliches Geschick</li>
       </ul>`
@@ -56,7 +56,7 @@ export default {
         time: '3,5 Jahre',
         skills: 'sehr guter Hauptschulabschluss oder guter Realschulabschluss, gute Mathematikkenntnisse',
         details: `<ul class="Base-ul u-marginBottom--r1">
-        <li><strong>Ausbildungsbeginn:</strong> 01.08.2020</li>
+        <li><strong>Ausbildungsbeginn:</strong> 01.08</li>
         <li><strong>Ausbildungsdauer:</strong> 3,5 Jahre</li>
         <li><strong>Voraussetzungen:</strong> mindestens guter Hauptschulabschluss, handwerkliches Geschick</li>
       </ul>`
@@ -67,7 +67,7 @@ export default {
           id: 3,
           active: false,
           title: 'Metallbauer / Schlosser (m/w/d)',
-          start:'01.08.2020',
+          start:'01.08',
           time: '3,5 Jahre',
           skills: 'sehr guter Hauptschulabschluss oder guter Realschulabschluss, gute Mathematikkenntnisse',
           details: `

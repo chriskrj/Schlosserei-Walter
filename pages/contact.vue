@@ -5,7 +5,7 @@
         <div class="GridCol2MainAside-col-main u-col">
           <h1 class="Base-h1">Kontakt</h1>
           <div class="MainContent">
-            <h2 class="Base-h5">Walter Boike GmbH & Co.KG Schlosserei und Zerspanungstechnik</h2>
+            <h2 class="Base-h5">Walter Boike GmbH & Co.KG</h2>
             <p class="Base-p">Uferstr. 56  |  24106 Kiel</p>
             <p class="Base-p">
               <a class="Base-iconLink" href="tel:+49431337598">0431 33 75 98</a>
