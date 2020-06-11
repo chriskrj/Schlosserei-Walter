@@ -6,7 +6,7 @@
           <h1 class="Base-h1">Herzlich Willkommen bei der Firma Walter Boike Schlosserei und Zerspanungstechnik</h1>
           <div class="MainContent">
             <p class="Base-p">Die Firma Walter Boike Schlosserei und Zerspanungstechnik ist ein mittelständiges Unternehmen welches seit mehr als 20 Jahren an dem Standort Kiel Wik direkt am Nord-Ostsee-Kanal ansässig ist.</p>
-            <p class="Base-p">Firma wurde 1996 von Herrn Walter Boike gegründet und 2016 an den langjährigen Mitarbeiter Patrick Brendel verkauft.</p>
+            <p class="Base-p">Die Firma wurde 1996 von Herrn Walter Boike gegründet und 2016 an den langjährigen Mitarbeiter Patrick Brendel verkauft.</p>
             <p class="Base-p">Unsere kompetenten und erfahrenen Mitarbeiter ermöglichen eine termingerechte Fertigung. <br/>Mit unserer Modernen Technik, kompetenten und erfahrenen Mitarbeitern  wird garantiert, dass Ihr Auftrag mit Gewissen durchgeführt wird und das Endergebnis immer von bester Qualität ist.</p>
             <p class="Base-p u-marginBottom--r2">Sie Fragen zu unseren Produkten und Leistungen haben oder einfach nur weitere Informationen wünschen und uns kontaktieren möchten, rufen Sie uns an oder schicken Sie uns gerne eine Nachricht.</p>
             <p class="Base-p"><a class="Base-iconLink" href="tel:+49431337598">0431 / 33 75 98</a></p>
