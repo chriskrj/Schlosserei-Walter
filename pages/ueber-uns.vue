@@ -6,7 +6,7 @@
           <h1 class="Base-h1">Über uns</h1>
           <div class="MainContent">
             <p class="Base-p">Wir haben eine Fertigungsfläche von 600 m², Halle bekrant bis 3,2 Tonnen, 1
-              Teleskop-stapler bis 3,8 Tonnen mit 13,5 m Auslage, Bürofläche mit einem Konstruktionsbüro auf einer
+              Teleskopstapler bis 3,8 Tonnen mit 13,5 m Auslage, Bürofläche mit einem Konstruktionsbüro auf einer
               Fläche von 450 m2, mit einem Mitarbeiterstamm von zur Zeit 18 Personen.</p>
             <p class="Base-p"><strong>Die Firma fußt auf drei Elementen:</strong></p>
             <ul class="Base-ul">
@@ -34,7 +34,7 @@
       </div>
       <div class="GridCol3Even-row u-row">
         <div class="Person-item GridCol3Even-col u-col">
-          <Ansprechpartner imagesrc="ansprechpartner--fallback.svg" imagealt="Bild von Patrick Bendel" fullname="Patrick Brendel" position="Inhaber, Metallbauermeister, SFM" phone="0431 33 75 98" fax="0431 33 7373" email="info@schlosserei-boike.de" />
+          <Ansprechpartner imagesrc="ansprechpartner--fallback.svg" imagealt="Bild von Patrick Bendel" fullname="Patrick Brendel" position="Geschäftsführer, Metallbauermeister, SFM" phone="0431 33 75 98" fax="0431 33 7373" email="info@schlosserei-boike.de" />
         </div>
         <div class="Person-item GridCol3Even-col u-col">
           <Ansprechpartner imagesrc="ansprechpartner--fallback.svg" imagealt="Bild von Melina Brendel" fullname="Melina Brendel" position="Büro/Buchhaltung" phone="0431 33 75 98" fax="0431 33 7373" email="info@schlosserei-boike.de" />
