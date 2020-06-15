@@ -94,8 +94,8 @@ export default {
           title: 'Zerspanungsmechaniker (m/w/d)',
           details: `<h4 class="Base-h5">Voraussetzung:</h4>
       <ul class="Base-ul u-marginBottom--r1">
-      <li>abgeschlossene Berufsausbildung als Schlosser/Metallbauer oder vergleichbar</li>
-      <li>Schweißkenntnisse wünschenswert in WIG, MAG, E-Hand</li>
+      <li>abgeschlossene Berufsausbildung als Zerspanungsmechaniker oder vergleichbar</li>
+      <li>Selbstständige Arbeitsweise</li>
       <li>Teamfähigkeit</li>
       <li>Zuverlässigkeit</li>
     </ul>
@@ -113,6 +113,7 @@ export default {
       <li>unbefristete Anstellung</li>
       <li>30 Tage Urlaub im Jahr</li>
       <li>Urlaubs- und Weihnachtsgeld</li>
+      <li>VWL / AVWL</li>
     </ul>
       `
         }
