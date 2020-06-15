@@ -58,7 +58,7 @@ export default {
         details: `<ul class="Base-ul u-marginBottom--r1">
         <li><strong>Ausbildungsbeginn:</strong> 01.08</li>
         <li><strong>Ausbildungsdauer:</strong> 3,5 Jahre</li>
-        <li><strong>Voraussetzungen:</strong> mindestens guter Hauptschulabschluss, handwerkliches Geschick</li>
+        <li><strong>Voraussetzungen:</strong> sehr guter Hauptschulabschluss oder guter Realschulabschluss, gute Mathematikkenntnisse</li>
       </ul>`
       },
       ],
