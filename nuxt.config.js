@@ -13,7 +13,7 @@ module.exports = {
       { name: 'msapplication-TileColor', content: '#003996' },
       { name: 'msapplication-TileImage', content: '/mstile-144x144.png' },
       { name: 'theme-color', content: '#ffffff' },
-      { hid: 'description', name: 'description', content: 'Schlosserei Boike' },
+      { hid: 'description', name: 'description', content: 'Die Firma Walter Boike Schlosserei und Zerspanungstechnik ist ein mittelständiges Unternehmen welches seit mehr als 20 Jahren an dem Standort Kiel Wik direkt am Nord-Ostsee-Kanal ansässig ist.' },
       { hid: 'robots', name: 'robots', content: 'index, follow, max-snippet:[120], max-image-preview:[large]' },
       { hid: 'keywords', name: 'keywords', content:  'Zerspanungstechnik, Schlosserei, CNC, Drehen, Fräsen, Zerspanungsmechaniker, Stellenangebote, Drehtechnik, Fanuc, Einschichtbetrieb, Frästechnik'}
     ],
