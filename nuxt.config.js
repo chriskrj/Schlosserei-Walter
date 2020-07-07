@@ -13,7 +13,9 @@ module.exports = {
       { name: 'msapplication-TileColor', content: '#003996' },
       { name: 'msapplication-TileImage', content: '/mstile-144x144.png' },
       { name: 'theme-color', content: '#ffffff' },
-      { hid: 'description', name: 'description', content: 'Schlosserei Boike' }
+      { hid: 'description', name: 'description', content: 'Schlosserei Boike' },
+      { hid: 'robots', name: 'robots', content: 'index, follow, max-snippet:[120], max-image-preview:[large]' },
+      { hid: 'keywords', name: 'keywords', content:  'Zerspanungstechnik, Schlosserei, CNC, Drehen, Fräsen, Zerspanungsmechaniker, Stellenangebote, Drehtechnik, Fanuc, Einschichtbetrieb, Frästechnik'}
     ],
     link: [
       { rel: 'apple-touch-icon',sizes: '180x180', type: 'image/png', href: '/apple-touch-icon.png' },
@@ -25,7 +27,7 @@ module.exports = {
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto&display=swap' }
     ]
   },
-  
+
   /*
   ** Customize the progress bar color
   */
