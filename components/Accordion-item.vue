@@ -27,13 +27,20 @@
 export default {
   name: 'Accordion-item',
   props: ['item', 'multiple', 'groupId'],
+  data() {
+    return {
+      LocalItem: this.item
+    }
+  },
   methods: {
   toggle(event) {
-    if (this.multiple) this.item.active = !this.item.active
+    if (this.multiple) {
+      this.LocalItem.active = !this.LocalItem.active
+    }
     else {
       this.$parent.$children.forEach((item, index) => {
-        if (item.$el.id === event.currentTarget.parentElement.parentElement.id) item.item.active = !item.item.active
-        else item.item.active = false
+        if (item.$el.id === event.currentTarget.parentElement.parentElement.id) item.LocalItem.active = !item.LocalItem.active
+        else item.LocalItem.active = false
       })
     }
   },

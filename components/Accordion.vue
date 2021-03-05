@@ -4,6 +4,7 @@
       v-for="item in content"
       :multiple="multiple"
       :item="item"
+      item.sync="item"
       :groupId="groupId"
       :key="item.id">
     </Accordion-item>
