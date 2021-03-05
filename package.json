@@ -55,7 +55,7 @@
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-pngquant": "^9.0.2",
     "imagemin-webp": "^6.0.0",
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.19",
     "node-sass": "^5.0.0",
     "path": "^0.12.7",
     "postcss-assets": "^5.0.0",
